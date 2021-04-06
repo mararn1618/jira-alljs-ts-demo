@@ -9,7 +9,9 @@ const refreshIssues = async (projectKey: string) => {
 
 const urlParams = new URLSearchParams(window.location.search);
 let projectKey = urlParams.get("projectKey");
-if(projectKey) {
-
+if (projectKey) {
+    refreshIssues(projectKey);
+} else {
+    document.getElementById("results").innerHTML = "Please specify ?projectKey=XXXX"
 }
 
