@@ -1,4 +1,3 @@
-"use strict";
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
@@ -8,20 +7,17 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.JiraAllJSWrapper = exports.JiraIssueSearchFronendAPI = exports.PartialResult = void 0;
 /**
  * PartialResult
  * Used when we query for IssueKeys, but some of them cannot be found in JIRA
  */
-class PartialResult {
+export class PartialResult {
     constructor(init) {
         this.missing = [];
         this.found = init;
     }
 }
-exports.PartialResult = PartialResult;
-class JiraIssueSearchFronendAPI {
+export class JiraIssueSearchFronendAPI {
     static simpleDemo(projectKey) {
         return __awaiter(this, void 0, void 0, function* () {
             // https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-issue-search/#api-rest-api-3-search-get
@@ -81,8 +77,7 @@ class JiraIssueSearchFronendAPI {
         });
     }
 }
-exports.JiraIssueSearchFronendAPI = JiraIssueSearchFronendAPI;
-class JiraAllJSWrapper {
+export class JiraAllJSWrapper {
     /**********************************************************************
      * AP.context
      *
@@ -144,4 +139,3 @@ class JiraAllJSWrapper {
         });
     }
 }
-exports.JiraAllJSWrapper = JiraAllJSWrapper;
