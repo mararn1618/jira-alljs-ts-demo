@@ -6,13 +6,11 @@
         "type": "jwt"
     },
     "lifecycle": {
-        "installed": "https://mararn1618.github.io/jira-alljs-ts-demo/",
-        "uninstalled": "https://mararn1618.github.io/jira-alljs-ts-demo/"
+        "installed": "lifecycle_200.html",
+        "uninstalled": "lifecycle_200.html"
     },
     "scopes": [
-        "READ",
-        "WRITE",
-        "DELETE"
+        "READ"
     ],
     "modules": {
         "jiraProjectPages": [
