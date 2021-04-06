@@ -1,0 +1,22 @@
+{
+  "name": "jira-alljs-ts-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && cp src/*.html demo/ && cp src/atlassian-connect* demo/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mararn1618/jira-alljs-ts-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mararn1618/jira-alljs-ts-demo/issues"
+  },
+  "homepage": "https://github.com/mararn1618/jira-alljs-ts-demo#readme",
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  }
+}
