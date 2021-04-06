@@ -6,8 +6,8 @@
         "type": "jwt"
     },
     "lifecycle": {
-        "installed": "index.html",
-        "uninstalled": "index.html"
+        "installed": "https://mararn1618.github.io/jira-alljs-ts-demo/",
+        "uninstalled": "https://mararn1618.github.io/jira-alljs-ts-demo/"
     },
     "scopes": [
         "READ",
