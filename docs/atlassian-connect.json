@@ -6,8 +6,8 @@
         "type": "jwt"
     },
     "lifecycle": {
-        "installed": "installed",
-        "uninstalled": "uninstalled"
+        "installed": "index.html",
+        "uninstalled": "index.html"
     },
     "scopes": [
         "READ",
