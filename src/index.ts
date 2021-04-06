@@ -1,3 +1,15 @@
+import { JiraIssueSearchFronendAPI } from "./alljswrapper";
 
 
-console.log("yepp")
+const refreshIssues = async (projectKey: string) => {
+    let issues = await JiraIssueSearchFronendAPI.simpleDemo(projectKey);
+    document.getElementById("results").innerHTML = JSON.stringify(issues);
+}
+
+
+const urlParams = new URLSearchParams(window.location.search);
+let projectKey = urlParams.get("projectKey");
+if(projectKey) {
+
+}
+
