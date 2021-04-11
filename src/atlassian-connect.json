@@ -1,9 +1,13 @@
 {
     "key": "jira-alljs-ts-demo",
-    "baseUrl": "https://mararn1618.github.io/jira-alljs-ts-demo/",
+    "baseUrl": "https://markus-arndt.com/_haystack/jira-alljs-ts-demo/",
     "name": "jira-alljs-ts-demo",
     "authentication": {
         "type": "jwt"
+    },
+    "lifecycle": {
+        "installed": "lifecycle-hook-installed-uninstalled.php",
+        "uninstalled": "lifecycle-hook-installed-uninstalled.php"
     },
     "scopes": [
         "READ"

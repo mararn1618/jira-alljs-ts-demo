@@ -14,4 +14,3 @@ if (projectKey) {
 } else {
     document.getElementById("results").innerHTML = "Please specify ?projectKey=XXXX"
 }
-
