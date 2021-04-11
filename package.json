@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config webpack.config.js && cp src/*.php dist/ && cp src/atlassian-connect* dist/"
+    "build": "webpack --config webpack.config.js && cp src/*.php dist/ && cp src/*.html dist/ && cp src/atlassian-connect* dist/"
   },
   "repository": {
     "type": "git",
